@@ -1,0 +1,71 @@
+body {background-color: lightyellow; 
+    color: black;
+    font-family: Arial, sans-serif;}
+
+h1 {color: navy;
+   text-align: center;}
+
+h2 {color: darkblue;}
+
+p {font-size: 18px;}
+
+img {display: block;
+    margin: auto;}
+
+table {width: 100%;
+      border-collapse: collapse;}
+
+th, td {border: 2px solid black;
+       padding: 10px;
+       text-align: left;}
+
+th {background-color: navy;
+    color: white;}
+
+footer{margin: top 30px;
+      text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
