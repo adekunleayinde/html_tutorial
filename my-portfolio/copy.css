@@ -82,6 +82,7 @@ nav a:hover {
 .Hobby p {
     line-height: 1.5;
 }
+
 .Projects {
     padding: 50px 20px;
     text-align: center;
@@ -139,6 +140,13 @@ nav a:hover {
 
 .Contact a:hover {
     background-color: #00bfff;
+}
+
+.About-Me, .Hobbies, .Projects, .Contact {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
 }
 footer {
     background-color: #111;
