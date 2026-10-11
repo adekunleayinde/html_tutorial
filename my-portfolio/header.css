@@ -1,0 +1,130 @@
+body {
+    background-image: url("deepmind.jpg");
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.Hobbies {
+    padding: 50px 20px;
+    text-align: center;
+}
+.Hobbies h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.Hobbies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Hobbies {
+       background-color: #f1f1f1;
+       padding: 20px;
+       width: 100%;
+       border-radius: 10px;
+}
+.Hobbies h3 {
+    font-size:22px;
+}
+.Hobbies p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.Projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+.Projects h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.Projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Projects {
+       background-color: #f1f1f1;
+       padding: 20px;
+       width: 100%;
+       border-radius: 10px;
+}
+.Projects h3 {
+    font-size:22px;
+}
+.Projects p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.Contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+.Contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.Contact p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
