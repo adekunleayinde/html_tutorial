@@ -1,0 +1,203 @@
+body {
+    background-image: url("deepmind.jpg");
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+nav {
+    background-color: #5292E1;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+.About-Me {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.About-Me h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.About-Me p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+.Hobbies {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.Hobby h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Hobby-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Hobby {
+    background-color:#9CB5D5;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.Hobby h3 {
+    font-size: 22px;
+}
+
+.Hobby p {
+    line-height: 1.5;
+}
+.Projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.Projects h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Project {
+    background-color:#BD9ED6;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.Project h3 {
+    font-size: 22px;
+}
+.Project p {
+    line-height: 1.5;
+}
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.Contact h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.Contact p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.Contact a {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Contact a:hover {
+    background-color: #00bfff;
+}
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .skill,
+    .project {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

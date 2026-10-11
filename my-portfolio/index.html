@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio></title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal Website</p>
+    </div>
+
+    <div id="About">
+        <h2>About me</h2>
+        <p>My name is <span class="hightlight">AYINDE MALIK</span>. I am learning<br><span class="hightlight">web development
+        </span> and I enjoy building websites
+        </p>
+        
+        <img src="Ayinde.jpg.jpg" alt="My profile picture">
+    </div>
+
+    <div id="skills">
+        <h2>My skills</h2>
+
+        <div class="Skil-box">
+            <h3>Web development</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+            </ul>
+        </div>
+
+        <div class="Skill-box">
+            <h3>My goals</h3>
+            <ol>
+                <li>Become a professional Web developer</li>
+                <li>Build my own websites</li>
+                <li>Learn Javascript</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact me</h2>
+        <button id="contactBtn" onclick="showMessage()">Send Message</button>
+        <button id="resetBtn">Reset</button>
+        <button id="disabledBtn" disabled>Disabled</button>
+ <script>
+let button = document.getElementById("contactBtn");
+let resetButton = document.getElementById("resetBtn");
+let disabledButton = document.getElementById("disabledBtn");
+
+function showMessage() {
+    button.textContent = "Message Sent!";
+    alert("Thanks for contacting me!");
+}
+
+resetButton.onclick = function() {
+    button.textContent = "Send Message";
+};
+
+disabledButton.disabled = false;
+</script>
+    
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
