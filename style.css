@@ -13,14 +13,21 @@ img {display: block;
     margin: auto;}
 
 table {width: 100%;
-      border-collapse: collapse;}
+      height: 50px;
+      border-collapse: collapse;
+    }
 
 th, td {border: 2px solid black;
        padding: 10px;
-       text-align: left;}
+       text-align: left;
+    }
 
 th {background-color:navy;
-    color: white;}
+    color: white;
+}
+tr {
+    overflow-x: scroll;
+}
 tr:hover{background-color:#ddd;}
 
 footer{margin: top 30px;

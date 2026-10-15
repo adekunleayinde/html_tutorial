@@ -3,6 +3,7 @@ body {
     background-size: cover;
     margin: 0;
     font-family: Arial, sans-serif;
+    font-weight: bold;
 }
 
 header {
@@ -13,16 +14,24 @@ header {
 
 header h1 {
     font-size: 40px;
+    font-style: italic;
     margin-bottom: 10px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 header p {
     font-size: 18px;
+    font-style: italic;
+    font-family: 'Sofia', sans-serif;
 }
 nav {
     background-color: #5292E1;
     text-align: center;
     padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav a {
@@ -30,10 +39,16 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 17px;
+    font-style: italic;
+    list-style-type: circle;
 }
 
 nav a:hover {
     color: #00bfff;
+}
+span {
+    display:inline;
+    justify-content: center;
 }
 .About-Me {
     padding: 50px 20px;
@@ -42,11 +57,14 @@ nav a:hover {
 
 .About-Me h2 {
     font-size: 30px;
+    font-style: italic;
     margin-bottom: 15px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .About-Me p {
     font-size: 18px;
+    font-style: italic;
     max-width: 600px;
     margin: auto;
     line-height: 1.6;
@@ -54,11 +72,15 @@ nav a:hover {
 .Hobbies {
     padding: 50px 20px;
     text-align: center;
+    font-style: italic;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .Hobby h2 {
     font-size: 30px;
+    font-style: italic;
     margin-bottom: 30px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .Hobby-container {
@@ -67,6 +89,7 @@ nav a:hover {
     gap: 20px;
     flex-wrap: wrap;
 }
+
 
 .Hobby {
     background-color:#9CB5D5;
@@ -77,11 +100,19 @@ nav a:hover {
 
 .Hobby h3 {
     font-size: 22px;
+    font-style: italic;
 }
 
 .Hobby p {
+    font-style: italic;
     line-height: 1.5;
+    font-family: 'Sofia', sans-serif;
 }
+.Hobby-container a:hover {
+    background-color: #DCD6D6;
+    text-decoration: underline;
+}
+
 
 .Projects {
     padding: 50px 20px;
@@ -91,7 +122,9 @@ nav a:hover {
 
 .Projects h2 {
     font-size: 30px;
+    font-style: italic;
     margin-bottom: 30px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .Project-container {
@@ -110,9 +143,12 @@ nav a:hover {
 
 .Project h3 {
     font-size: 22px;
+    font-style: italic;
 }
 .Project p {
+    font-style: italic;
     line-height: 1.5;
+    font-family: 'Sofia', sans-serif;
 }
 .contact {
     padding: 50px 20px;
@@ -121,12 +157,16 @@ nav a:hover {
 
 .Contact h2 {
     font-size: 30px;
+    font-style: italic;
     margin-bottom: 15px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .Contact p {
     font-size: 18px;
+    font-style: italic;
     margin-bottom: 25px;
+    font-family: 'Sofia', sans-serif;
 }
 
 .Contact a {
@@ -139,7 +179,8 @@ nav a:hover {
 }
 
 .Contact a:hover {
-    background-color: #00bfff;
+    background-color: #DCD6D6;
+    text-decoration: underline;
 }
 
 .About-Me, .Hobbies, .Projects, .Contact {
