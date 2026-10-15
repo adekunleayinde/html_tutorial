@@ -24,6 +24,12 @@ header p {
     font-style: italic;
     font-family: 'Sofia', sans-serif;
 }
+.header-image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 nav {
     background-color: #5292E1;
     text-align: center;
@@ -40,7 +46,6 @@ nav a {
     margin: 0 15px;
     font-size: 17px;
     font-style: italic;
-    list-style-type: circle;
 }
 
 nav a:hover {
