@@ -26,8 +26,6 @@ header p {
 }
 .header-image {
     display:block;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 nav {
@@ -188,7 +186,7 @@ span {
     text-decoration: underline;
 }
 
-.About-Me, .Hobbies, .Projects, .Contact {
+.About-Me, .Hobbies, .Projects, .Contact, header, .header-image, .nav {
     background-color: #F9F9F9;
     border-radius: 10px;
     margin: 20px auto;
